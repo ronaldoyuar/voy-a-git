@@ -7,17 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <button type="button" class="btn" onclick="saludo()"> 
+        saludo
+    </button>
+<section>
+<img class =" imagen1" src="https://www.royalcanin.es/wp-content/uploads/2019/02/consejosadiestramientogatitoscabecera.png">
 
+
+</section>
 <script>    
+
 function saludo( nombre){
-alert("Bienvenido"+ nombre)
-
-
+  nombre=  prompt("cual es tu nombre");
+   alert("Bienvenido "+ nombre);
 }
 
-saludo (prompt("cual es tu nombre"))
-
 </script>
-</body>
+<style> 
+.imagen1{
+   width: 100%;
+   height: 100vh;
+   
+}
+
+.btn{
+    background: red;
+border: 1px solid black;
+color: white;
+font-size: 20px ;
+}
+</style>
+
+</body> 
 </html>
